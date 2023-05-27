@@ -1,8 +1,8 @@
 public class DivideWithoutOperator {
     public static void main(String[] args) {
 
-        int number1=20;
-        int number2=3;
+        int number1=13;
+        int number2=2;
 
         int result=0;
 
