@@ -27,7 +27,7 @@ public class ArraylistRemoveAhmed {
         Iterator<String> iterator = names.iterator();
 
         while(iterator.hasNext()){
-            if(iterator.next().equals("Ahmed")){
+            if(iterator.next().equalsIgnoreCase("Ahmed")){
                 iterator.remove();
             }
         }

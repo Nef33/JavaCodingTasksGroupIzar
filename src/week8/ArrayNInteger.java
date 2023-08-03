@@ -13,7 +13,7 @@ public class ArrayNInteger {
         //For N = 3 one of the possible answers is [-1,0,1] (but there are many more
         //correct answers).
 
-        int N = 3;
+        int N = 6;
         int[] result = generateArray(N);
 
         System.out.println(Arrays.toString(result));
@@ -21,7 +21,9 @@ public class ArrayNInteger {
     }
 
     public static int[] generateArray(int N) {
-        int[] arr = new int[N];
+        int[] arr = new int[N];//array of size N to store unique integers
+
+        int sum=0; // initialize variable sum to keep track of the sum of integers
 
         // Handle edge case where N is odd
         if (N % 2 != 0) {
